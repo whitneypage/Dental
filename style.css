@@ -25,8 +25,8 @@ html, body {
 }
 
 .bigContainer {
-	width: 65%;
-	height: 100%;
+	width: 1200px;
+	height: 2112px;
 	background-color: #fff;
 	display: flex;
 	flex-direction:column;
@@ -34,16 +34,17 @@ html, body {
 }
 
 .infoContainer {
+	padding-bottom: 15px;
 
 	width: 100%;
 	height: 200px;
-	padding-top: 15px;
 	display: flex;
 	flex-direction: row;
+	align-items: flex-end;
 }
 
 .add {
-	width: 600px;
+	width: 1000px;
 	padding-top: 25px;
 	padding-left: 45px;
 }
@@ -64,5 +65,31 @@ html, body {
 	width: 994px;
 }
 
+.content {
+	width: 900px;
+	margin: 0 auto;
+	padding: 50px 120px;
+	text-align: left;
+
+}
+
+.name {
+	text-align: center;
+}
+
+.pic {
+     text-align: center;
+}
+
+li {
+	padding: 5px;
+}
+
+.circle {
+	text-align: center;
+}
+.ada {
+	text-align: center;
+}
 
 
