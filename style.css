@@ -13,13 +13,14 @@ html, body {
 
 }
 
-.navbar {
+.navbar, .navbottom {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
 .navbar p {
+	color: rgba(91, 84, 73, 1);
 	padding: 10px;
 	font-family: Arial;
 }
@@ -90,6 +91,17 @@ li {
 }
 .ada {
 	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
+
+.navbottom p{
+	color: rgba(91, 84, 73, 1);
+	font-size: 12px;
+	font-family: Arial;
+	padding: 5px;
 }
 
 
